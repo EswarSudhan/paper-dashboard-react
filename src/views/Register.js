@@ -63,7 +63,7 @@ const RegisterStudents = () => {
           
            <Col>
              {/* Hide the default "Choose File" button */}
-          <Input type="file" onChange={handleFileChange} innerRef={fileInputRef} style={{ display: 'none' }} />
+          <Input type="file" onChange={handleFileChange} innerRef={fileInputRef} style={{ display: 'none'}} />
           {/* Button to trigger file input */}
           <Button color="success" onClick={handleUploadButtonClick}>
             Upload File

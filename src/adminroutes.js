@@ -25,6 +25,7 @@ import Maps from "views/Map.js";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
 import RegisterStudents from "views/Register";
+import CompanyForm from "views/Postjob";
 
 var routes = [
   {
@@ -38,8 +39,15 @@ var routes = [
   {
     path: "/register",
     name: "Register",
-    icon: "nc-badge",
+    icon: "nc-single-02",
     component: <RegisterStudents />,
+    layout: "/admin",
+  },
+  {
+    path: "/postjob",
+    name: "Post Job",
+    icon: "nc-briefcase-24",
+    component: <CompanyForm />,
     layout: "/admin",
   },
  
