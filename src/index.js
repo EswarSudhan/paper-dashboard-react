@@ -37,8 +37,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/admin/*" element={<AdminLayout />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/" element={<Navigate to="/admin/dashboard" replace />} />
+      <Route path="/" element={<Login />} />
+      
     </Routes>
   </BrowserRouter>
 );

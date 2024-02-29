@@ -26,6 +26,8 @@ import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
 import RegisterStudents from "views/Register";
 import CompanyForm from "views/Postjob";
+import JobDetailsPage from "views/Fulltime";
+import Fulltime from "views/Fulltime";
 
 var routes = [
   {
@@ -48,6 +50,14 @@ var routes = [
     name: "Post Job",
     icon: "nc-briefcase-24",
     component: <CompanyForm />,
+    layout: "/admin",
+  },
+
+  {
+    path: "/fulltime",
+    name: "Full Time",
+    icon: "nc-briefcase-24",
+    component: <Fulltime />,
     layout: "/admin",
   },
  
